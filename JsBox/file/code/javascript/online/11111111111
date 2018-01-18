@@ -1,0 +1,5 @@
+function test (a) {
+  var sss = a
+  console.log(sss)
+}
+console.log('ssss')

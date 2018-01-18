@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@3.10.8
+3 info using node@v6.8.1
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle code-editor@0.0.0~prestart: code-editor@0.0.0
+6 silly lifecycle code-editor@0.0.0~prestart: no script for prestart, continuing
+7 info lifecycle code-editor@0.0.0~start: code-editor@0.0.0
+8 verbose lifecycle code-editor@0.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle code-editor@0.0.0~start: PATH: D:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;E:\web_workspace\vue-os\code-editor\node_modules\.bin;C:\Python\Scripts;C:\Python;E:\sdk\sdk;D:\Program Files\gradle-2.4\bin;D:\Program Files\nodejs\node_global\;C:\Program Files\Java\jdk1.8.0_05\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\nodejs\;D:\Program Files\Git\cmd;D:\phpStudy\php\php-5.4.45;C:\ProgramData\ComposerSetup\bin;C:\Python\Lib\site-packages;C:\Python\Lib\site-packages\pytesser;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Roaming\Composer\vendor\bin
+10 verbose lifecycle code-editor@0.0.0~start: CWD: E:\web_workspace\vue-os\code-editor
+11 silly lifecycle code-editor@0.0.0~start: Args: [ '/d /s /c', 'node ./bin/www' ]
+12 silly lifecycle code-editor@0.0.0~start: Returned: code: 3221225786  signal: null
+13 info lifecycle code-editor@0.0.0~start: Failed to exec start script
+14 verbose stack Error: code-editor@0.0.0 start: `node ./bin/www`
+14 verbose stack Exit status 3221225786
+14 verbose stack     at EventEmitter.<anonymous> (D:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (D:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid code-editor@0.0.0
+16 verbose cwd E:\web_workspace\vue-os\code-editor
+17 error Windows_NT 6.1.7601
+18 error argv "D:\\Program Files\\nodejs\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+19 error node v6.8.1
+20 error npm  v3.10.8
+21 error code ELIFECYCLE
+22 error code-editor@0.0.0 start: `node ./bin/www`
+22 error Exit status 3221225786
+23 error Failed at the code-editor@0.0.0 start script 'node ./bin/www'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the code-editor package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     node ./bin/www
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs code-editor
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls code-editor
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
