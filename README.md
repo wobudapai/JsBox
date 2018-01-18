@@ -7,5 +7,5 @@
 ![](https://github.com/zycfj/JsBox/blob/master/image/1.png?raw=true)
 #### 左边可以收起来，中间的横条可以上下拉动噢
 ![](https://github.com/zycfj/JsBox/blob/master/image/2.png?raw=true)
-#### 为了防止重复提交，搞了个简单的验证码，诗歌验证
+#### 为了防止重复提交，搞了个简单的验证码，诗歌验证。当然，管理员不需要验证，所以输入Token就可以啦
 ![](https://github.com/zycfj/JsBox/blob/master/image/3.png?raw=true)
