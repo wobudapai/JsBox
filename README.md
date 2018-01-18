@@ -48,8 +48,4 @@ npm run dev
 // 编译（压缩）
 npm run build
 ```
-2、将dist文件夹中生成的文件全部拷贝到JsBox/public文件夹中，然后按照运行node项目的步骤运行即可
-```javascript
-// 运行
-npm start
-```
+2、将dist文件夹中生成的文件全部拷贝到JsBox/public文件夹中，然后发布该node项目即可
