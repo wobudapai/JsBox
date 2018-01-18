@@ -5,15 +5,23 @@
 前台：vue
 后台：nodejs、文件存储
 ## 界面预览
+
 深色风格界面（装逼专用(〃'▽'〃)）
+
 ![](https://github.com/zycfj/JsBox/blob/master/image/1.png?raw=true)
+
 左边可以收起来，中间的横条可以上下拉动噢
+
 ![](https://github.com/zycfj/JsBox/blob/master/image/2.png?raw=true)
-为了防止重复提交，搞了个简单的验证码，诗歌验证
+
+为了防止重复提交，搞了个简单的验证码--诗歌验证
+
 ![](https://github.com/zycfj/JsBox/blob/master/image/3.png?raw=true)
 ## 运行
 下载项目到本地，里面有两个文件夹：
+
 front-vue：采用vue实现的简单单页应用，访问接口与后台通信
+
 JsBox：项目后台，主要采用文件的方式存储信息
 
 1、进入JsBox文件夹
@@ -33,4 +41,15 @@ npm install
 
 // 运行
 npm run dev
+```
+## 发布
+1、进入front-vue文件夹
+```javascript
+// 编译（压缩）
+npm run build
+```
+2、将dist文件夹中生成的文件全部拷贝到JsBox/public文件夹中，然后按照运行node项目的步骤运行即可
+```javascript
+// 运行
+npm start
 ```
